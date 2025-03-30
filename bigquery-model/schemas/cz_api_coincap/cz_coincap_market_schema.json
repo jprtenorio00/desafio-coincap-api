@@ -1,0 +1,44 @@
+{
+  "fields": [
+    {
+      "name": "ID_CRIPTO",
+      "type": "STRING"
+    },
+    {
+      "name": "ID_EXCHANGE",
+      "type": "STRING"
+    },
+    {
+      "name": "ID_ATIVO_BASE",
+      "type": "STRING"
+    },
+    {
+      "name": "ID_ATIVO_COTACAO",
+      "type": "STRING"
+    },
+    {
+      "name": "SIGLA_ATIVO_BASE",
+      "type": "STRING"
+    },
+    {
+      "name": "SIGLA_ATIVO_COTACAO",
+      "type": "STRING"
+    },
+    {
+      "name": "VL_PRECO_MERCADO",
+      "type": "STRING"
+    },
+    {
+      "name": "VL_VOLUME_24H_MERCADO",
+      "type": "STRING"
+    },
+    {
+      "name": "PC_VOLUME_MERCADO",
+      "type": "STRING"
+    },
+    {
+      "name": "DT_CONSULTA",
+      "type": "STRING"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "fields": [
+    {
+      "name": "id",
+      "type": "STRING"
+    },
+    {
+      "name": "rank",
+      "type": "STRING"
+    },
+    {
+      "name": "symbol",
+      "type": "STRING"
+    },
+    {
+      "name": "name",
+      "type": "STRING"
+    },
+    {
+      "name": "supply",
+      "type": "STRING"
+    },
+    {
+      "name": "maxSupply",
+      "type": "STRING"
+    },
+    {
+      "name": "marketCapUsd",
+      "type": "STRING"
+    },
+    {
+      "name": "volumeUsd24Hr",
+      "type": "STRING"
+    },
+    {
+      "name": "priceUsd",
+      "type": "STRING"
+    },
+    {
+      "name": "changePercent24Hr",
+      "type": "STRING"
+    },
+    {
+      "name": "vwap24Hr",
+      "type": "STRING"
+    },
+    {
+      "name": "explorer",
+      "type": "STRING"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+CREATE OR REPLACE TABLE `inspired-nomad-455114-k3.sz_api_coincap.sz_coincap_crypto` AS
+SELECT
+  id AS ID_CRIPTO,
+  rank AS NR_POSICAO_RANK,
+  symbol AS DS_SIGLA_ATIVO,
+  name AS NM_ATIVO,  
+  FORMAT('%.2f', CAST(supply AS FLOAT64)) AS QT_EM_CIRCULACAO,
+  FORMAT('%.2f', CAST(maxSupply AS FLOAT64)) AS QT_MAXIMA_EMISSAO,  
+  FORMAT('%.2f', CAST(marketCapUsd AS FLOAT64)) AS VL_CAPITALIZACAO_MERCADO,
+  FORMAT('%.2f', CAST(volumeUsd24Hr AS FLOAT64)) AS VL_VOLUME_24H,
+  FORMAT('%.2f', CAST(priceUsd AS FLOAT64)) AS VL_PRECO_ATUAL,  
+  FORMAT('%.2f%%', CAST(changePercent24Hr AS FLOAT64)) AS PC_VARIACAO_24H,
+  FORMAT('%.2f', CAST(vwap24Hr AS FLOAT64)) AS VL_PRECO_MEDIO_24H,  
+  explorer AS LINK_EXPLORADOR
+FROM `inspired-nomad-455114-k3.rz_api_coincap.rz_coincap_crypto`
+WHERE id IS NOT NULL
+ORDER BY CAST(rank AS INT64);

@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "name": "priceUsd",
+      "type": "STRING"
+    },
+    {
+      "name": "time",
+      "type": "INTEGER"
+    },
+    {
+      "name": "date",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "id",
+      "type": "STRING"
+    }
+  ]
+}

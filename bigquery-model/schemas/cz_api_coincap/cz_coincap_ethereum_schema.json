@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "mode": "NULLABLE",
+      "name": "VL_PRECO_HISTORICO",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "DT_CONSULTA_TIMESTAMP",
+      "type": "INTEGER"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "DT_CONSULTA_HISTORICO",
+      "type": "STRING"
+    },
+    {
+      "mode": "NULLABLE",
+      "name": "ID_CRIPTO",
+      "type": "STRING"
+    }
+  ]
+}

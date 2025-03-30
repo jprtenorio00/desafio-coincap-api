@@ -1,0 +1,52 @@
+{
+  "fields": [
+    {
+      "name": "ID_CRIPTO",
+      "type": "STRING"
+    },
+    {
+      "name": "NR_POSICAO_RANK",
+      "type": "STRING"
+    },
+    {
+      "name": "DS_SIGLA_ATIVO",
+      "type": "STRING"
+    },
+    {
+      "name": "NM_ATIVO",
+      "type": "STRING"
+    },
+    {
+      "name": "QT_EM_CIRCULACAO",
+      "type": "STRING"
+    },
+    {
+      "name": "QT_MAXIMA_EMISSAO",
+      "type": "STRING"
+    },
+    {
+      "name": "VL_CAPITALIZACAO_MERCADO",
+      "type": "STRING"
+    },
+    {
+      "name": "VL_VOLUME_24H",
+      "type": "STRING"
+    },
+    {
+      "name": "VL_PRECO_ATUAL",
+      "type": "STRING"
+    },
+    {
+      "name": "PC_VARIACAO_24H",
+      "type": "STRING"
+    },
+    {
+      "name": "VL_PRECO_MEDIO_24H",
+      "type": "STRING"
+    },
+    {
+      "name": "LINK_EXPLORADOR",
+      "type": "STRING"
+    }
+  ]
+}

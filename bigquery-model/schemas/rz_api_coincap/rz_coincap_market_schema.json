@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "name": "cryptoId",
+      "type": "STRING"
+    },
+    {
+      "name": "exchangeId",
+      "type": "STRING"
+    },
+    {
+      "name": "baseId",
+      "type": "STRING"
+    },
+    {
+      "name": "quoteId",
+      "type": "STRING"
+    },
+    {
+      "name": "baseSymbol",
+      "type": "STRING"
+    },
+    {
+      "name": "quoteSymbol",
+      "type": "STRING"
+    },
+    {
+      "name": "priceUsd",
+      "type": "FLOAT"
+    },
+    {
+      "name": "volumeUsd24Hr",
+      "type": "FLOAT"
+    },
+    {
+      "name": "volumePercent",
+      "type": "FLOAT"
+    }
+  ]
+}

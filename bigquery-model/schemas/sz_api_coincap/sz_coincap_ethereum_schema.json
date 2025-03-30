@@ -1,0 +1,20 @@
+{
+  "fields": [
+    {
+      "name": "ID_CRIPTO",
+      "type": "STRING"
+    },
+    {
+      "name": "VL_PRECO_HISTORICO",
+      "type": "STRING"
+    },
+    {
+      "name": "DT_CONSULTA_TIMESTAMP",
+      "type": "INTEGER"
+    },
+    {
+      "name": "DT_CONSULTA_HISTORICO",
+      "type": "STRING"
+    }
+  ]
+}

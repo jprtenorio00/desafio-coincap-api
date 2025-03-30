@@ -1,0 +1,23 @@
+# Ignorar a pasta do ambiente virtual do Airflow
+airflow/2.10.5/.airflow/
+
+# Ignorar arquivos de cache e temporários
+airflow/2.10.5/__pycache__/
+airflow/2.10.5/**/*.pyc
+airflow/2.10.5/**/*.log
+
+# Ignorar pastas de DAGs temporárias ou logs se houver
+airflow/2.10.5/dags/__pycache__/
+airflow/2.10.5/logs/
+
+# Ignorar configurações locais, banco sqlite e arquivos sensíveis
+airflow/2.10.5/airflow.db
+airflow/2.10.5/airflow.cfg
+airflow/2.10.5/unittests.cfg
+airflow/2.10.5/secrets_config.json
+airflow/2.10.5/standalone_admin_password.txt
+airflow/2.10.5/inspired-nomad-455114-k3-d22efb064c76.json
+
+#Ignorar .bat para criação automática dos schemas conectados ao BigQuery
+export_schemas.bat
+Tutorial.txt
